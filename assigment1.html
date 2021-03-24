@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>implementasi bootstrap untuk sebuah homepage website</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- cara offline, download dulu -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- cara online, lsg link, tapi perlu internet -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> -->
+
+    <!-- pake icon bootstrap - versi online -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Hacktiv8</a>
+            <!-- button yang muncul saat screen size nya kecil -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- sisanya nav yg muncul setiap saat -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="new.html">halaman New</a>
+                    </li>
+                    <!-- hapus ini jika tidak perlu dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Pilihan Kelas
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">HTML</a></li>
+                            <li><a class="dropdown-item" href="#">CSS</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Bootstrap</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <!-- ini search bar, di hapus saja jika belum dipakai -->
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+    
+            </form>
+                    
+    </div>
+    <style>
+        footer {text-align: center;
+                       padding: 5px;
+                       background-color: mediumslateblue;
+                       color: white;
+                     }         
+                          
+       </style>
+                   <footer>
+                       <p>Author: andhi aditya<br>
+                       <a href="mailto:hege@example.com">hege@example.com</a></p>
+                     </footer>        
+    </div>
+    </nav>
+
+    <h2>selamat datang di hacktiv8</h2>
+    <p>tolong bawain materinya jangan cepat2, sini bagroundnya bukan IT. nggak gt nangkap. pusing</p>
+    <i class></i>
+    <p></p>
+    <div class="bg-light pt-4 pb-5 px-3 border my-7 ">
+    <h2>Contoh alert</h2>
+    <div class="alert alert-primary">
+        maaf kalo menghambat...
+    </div> 
+    
+    <h2>mulai belajar!</h2>
+    <div>
+        <button type="button" class="btn btn-primary">Primary</button>
+    </div>    
+        <div class="d-flex">
+            <div class="card" style="width: 18rem;">
+                <img src="logo1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <img src="logo1.jpg" class="card-img-bottom" alt="...">
+            </div>
+            <div class="card bg-secondary" style="width: 18rem;">
+                <img src="logo1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-outline-dark">Go somewhere</a>
+                </div>
+            </div>
+        </div>   
+    </body>
+
+</html>
